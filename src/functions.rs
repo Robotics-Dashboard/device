@@ -1,11 +1,11 @@
+use common::errors::NotSetError;
+use common::traits::{Fetchable, Storeable, Validatable};
+use common::types::device::Device;
+use common::types::interface::Interface;
+use common::types::wireguard::WireGuard;
 use ini::Ini;
 use ini::{Properties, SectionEntry};
 use log::{error, info};
-use rdmodels::errors::NotSetError;
-use rdmodels::traits::{Fetchable, Storeable, Validatable};
-use rdmodels::types::device::Device;
-use rdmodels::types::interface::Interface;
-use rdmodels::types::wireguard::WireGuard;
 use std::path::PathBuf;
 
 pub async fn initialize_device_config() -> Result<Device, String> {

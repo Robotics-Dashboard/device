@@ -2,20 +2,13 @@
 
 ![device](device.png)
 
-
-### Build
-
-```bash
-docker compose build
-```
-
 ### About
 
 ---
 
-The device code that runs on remote devices. 
+The device code that runs on remote devices.
 
-This module: 
+This module:
 
 - Self validates the configuration
 - If the configuration is incomplete, it will fetch it

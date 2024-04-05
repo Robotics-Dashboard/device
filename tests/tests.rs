@@ -1,7 +1,7 @@
-use ::rdmodels::traits::{Fetchable, Storeable, Validatable};
-use rdmodels::errors::NotSetError;
-use rdmodels::types::device::Device;
-use rdmodels::types::wireguard::WireGuard;
+use ::common::traits::{Storeable, Validatable};
+use common::errors::NotSetError;
+use common::types::device::Device;
+use common::types::wireguard::WireGuard;
 use std::path::PathBuf;
 
 static EMPTY_CFG_FILE: &str = "tests/device_empty_cfg.yaml";

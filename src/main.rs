@@ -1,5 +1,5 @@
-use rdmodels::types::device::Device;
-use rdmodels::types::wireguard::WireGuard;
+use common::types::device::Device;
+use common::types::wireguard::WireGuard;
 
 use env_logger::Builder;
 use log::{error, info, LevelFilter};
