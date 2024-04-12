@@ -17,7 +17,7 @@ nix = { version = "0", features = ["user"] }
 reqwest = { version = "0", features = ["json"] }
 openssl = { version = "0", features = ["vendored"] }
 log = "0"
-env_logger = "0"
+env_logger = "0.10"
 rust-ini = "0"
 async-trait = "0"
 common = { path = "../common" }
