@@ -8,10 +8,10 @@ inherit cargo
 # how to get device could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/device/0.2.0"
 SRC_URI += "gitsm://github.com/Robotics-Dashboard/device.git;protocol=https;nobranch=1;branch=main"
-SRCREV = "0ff3a9ee35255f0f899fbcdd52acfbab44cd312f"
+SRCREV = "b9463c72667586b1cc6fde62edd9ae8240691e2a"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = "heartbeat"
-PV:append = ".AUTOINC+0ff3a9ee35"
+PV:append = ".AUTOINC+b9463c7266"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
